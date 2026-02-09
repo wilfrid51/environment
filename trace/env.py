@@ -384,7 +384,8 @@ Test Result: {test_result}
                 "seed": seed,
                 "test_result": test_result,
                 "dataset_index": challenge.extra.get("dataset_index"),
-                "usage": usage
+                "usage": usage,
+                "task_id": challenge.extra.get("task_id")
             }
         }
 
